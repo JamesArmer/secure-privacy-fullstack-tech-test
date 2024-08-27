@@ -7,13 +7,13 @@ A short full-stack tech test using a HTML, JavaScript and CSS frontend; a C# .NE
 Installation:
 
 - Node.js
-  - Using your preferred package manager (NVM is recommended) (Node.js download)[https://nodejs.org/en/download/package-manager]
+  - Using your preferred package manager (NVM is recommended) [Node.js download](https://nodejs.org/en/download/package-manager)
 - Dotnet 8.0
-  - MacOS using (homebrew)[https://brew.sh/] `brew install --cask dotnet`
-  - Directly from their website for all platforms (dotnet)[https://dotnet.microsoft.com/en-us/download/dotnet/8.0]
+  - MacOS using [homebrew](https://brew.sh/) `brew install --cask dotnet`
+  - Directly from their website for all platforms [dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Docker
-  - MacOS using (homebrew)[https://brew.sh/] `brew install docker`
-  - Directly from their website for all platforms (Docker download)[https://docs.docker.com/engine/install/]
+  - MacOS using [homebrew](https://brew.sh/) `brew install docker`
+  - Directly from their website for all platforms [Docker download](https://docs.docker.com/engine/install/)
 
 How to build and run the project:
 
@@ -23,7 +23,7 @@ How to build and run the project:
   - `docker compose down` can be used to stop the MongoDB container instance
   - See the `docker-compose.yml` file for details where port `27017` is being exposed and the `/db` folder of this project is being used to persist data outside of Docker
   - `dotnet run` can be used to run the .NET web API from the command line or alternatively use your own run configuration
-  - The web API will be served locally at (localhost:7013)[https://localhost:7013/]
+  - The web API will be served locally at [localhost:7013](https://localhost:7013/)
 - Frontend
   - `npx -y http-server` will run a basic HTTP server for your project files
   - index.html will be served on [localhost:8080](http://localhost:8080)
