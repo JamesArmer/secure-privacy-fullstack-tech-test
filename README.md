@@ -44,7 +44,7 @@ You will be marked on the following criteria:
 
 ## Task 2 - Frontend
 
-The `/frontend` folder of this monorepo has only an `index.html` file with some basic form components and an empty `main.js` file ready to add interactivity to the page.
+The `/frontend` folder of this monorepo has only an `index.html` file with some basic form components and an empty `main.js` and `style.css` file ready to add interactivity and design to the page.
 
 1. Extend the simple user creation form to match the fields in your `User` entity from Task 1
 2. Write JavaScript code which will send a create user request to the backend when the form is submitted
